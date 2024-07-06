@@ -177,3 +177,33 @@ align-items: center;
     }
 
 }
+
+
+
+
+
+/* style.css */
+.nav-link {
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+.saman-class-intro h1 span {
+    color: #007bff;
+}
+
+.saman-class-intro .saman-contact-button {
+    transition: background-color 0.3s ease;
+}
+
+.saman-class-intro .saman-contact-button:hover {
+    background-color: #0056b3;
+}
+
+footer .text-center a {
+    color: #007bff;
+    transition: color 0.3s ease;
+}
