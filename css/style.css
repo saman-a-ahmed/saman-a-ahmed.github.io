@@ -409,7 +409,7 @@ a:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  align-content: center;
 }
 
 .info_section .info_social img {
