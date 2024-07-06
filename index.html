@@ -1,27 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width initial-scale=1.0">
+<title>Home - Portfolio</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-        <p>Hi, I'm [Your Name], a [Your Profession]</p>
-    </header>
-    <section>
-        <h2>About Me</h2>
-        <p>This is a brief introduction about myself. I am passionate about [Your Interests].</p>
+<header>
+    <nav>
+        <ul>
+            <li ><a href="index.html" >Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section class="saman-class-intro">
+        <div class="saman-text-container">
+            <h1>Hi, I'm <span>Saman</span></h1>
+            <p>Well-versed in SQL, MongoDB and Python, navigating databases and web development with ease. With a knack for project management, I ensure smooth operations and timely deliveries. Teaching Python and web development is where I thrive, simplifying complex concepts for a clear understanding.
+            </p>
+            <a href="#contact" class="saman-contact-button">Learn More</a>
+        </div>
+        <div class="saman-image-container">
+            <img src="images/cover.jpg" alt="Laptop">
+        </div>
     </section>
-    <section>
-        <h2>Projects</h2>
-        <p>Details about my projects will go here.</p>
-    </section>
-    <footer>
-        <p>Contact information and social media links.</p>
+    <footer class="saman-class-footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <a href="mailto:samann.ahmed@outlook.com">samann.ahmed@outlook.com</a>
+            </div>
+            <div class="footer-column">
+                <a href="faq.html">FAQ</a>
+            </div>
+            <div class="footer-column">
+                <p style="font-size: 17px;">All rights reserved. &copy;</p>
+            </div>
+        </div>
     </footer>
-    <script src="script.js"></script>
+</main>
 </body>
 </html>

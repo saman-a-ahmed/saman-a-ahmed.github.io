@@ -1,0 +1,59 @@
+/* Intro Section Styles */
+.saman-class-intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.saman-class-image-container img {
+    max-width: 70%;
+    height: auto;
+    border-width: 500px;
+    border-color: cadetblue;
+}
+
+.saman-class-text-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.saman-class-text-container p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Experience Section Styles */
+.saman-class-experience h2 {
+    font-size: 2rem;
+    color: #333;
+    margin: 20px;
+    margin-left: 60px;
+
+}
+
+.saman-class-experience p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+}
+
+/* Responsive Design for smaller screens */
+@media only screen and (max-width: 768px) {
+
+    .saman-class-intro, .saman-class-experience {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .saman-class-experience h2{
+        margin-left: 10px;
+    }
+    .saman-class-image-container {
+        margin-bottom: 20px;
+    }
+}
