@@ -415,6 +415,8 @@ a:focus {
 .info_section .info_social img {
   width: 35px;
   margin-right: 8px;
+  align-items: center;
+  align-self: center;
 }
 
 /* end info section */
